@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC034AE61CB7AFAC005CF0D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC034AE51CB7AFAC005CF0D9 /* main.m */; };
+		CC034AE91CB7AFAC005CF0D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC034AE81CB7AFAC005CF0D9 /* AppDelegate.m */; };
+		CC034AEC1CB7AFAC005CF0D9 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CC034AEB1CB7AFAC005CF0D9 /* GameScene.m */; };
+		CC034AEE1CB7AFAC005CF0D9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CC034AED1CB7AFAC005CF0D9 /* GameScene.sks */; };
+		CC034AF11CB7AFAC005CF0D9 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC034AF01CB7AFAC005CF0D9 /* GameViewController.m */; };
+		CC034AF41CB7AFAC005CF0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC034AF21CB7AFAC005CF0D9 /* Main.storyboard */; };
+		CC034AF61CB7AFAC005CF0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC034AF51CB7AFAC005CF0D9 /* Assets.xcassets */; };
+		CC034AF91CB7AFAC005CF0D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC034AF71CB7AFAC005CF0D9 /* LaunchScreen.storyboard */; };
+		CC034B041CB7AFAC005CF0D9 /* ColorfulBallsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC034B031CB7AFAC005CF0D9 /* ColorfulBallsTests.m */; };
+		CC034B0F1CB7AFAC005CF0D9 /* ColorfulBallsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC034B0E1CB7AFAC005CF0D9 /* ColorfulBallsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC034B001CB7AFAC005CF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC034AD91CB7AFAB005CF0D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC034AE01CB7AFAC005CF0D9;
+			remoteInfo = ColorfulBalls;
+		};
+		CC034B0B1CB7AFAC005CF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC034AD91CB7AFAB005CF0D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC034AE01CB7AFAC005CF0D9;
+			remoteInfo = ColorfulBalls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC034AE11CB7AFAC005CF0D9 /* ColorfulBalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorfulBalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC034AE51CB7AFAC005CF0D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC034AE71CB7AFAC005CF0D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC034AE81CB7AFAC005CF0D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC034AEA1CB7AFAC005CF0D9 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		CC034AEB1CB7AFAC005CF0D9 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		CC034AED1CB7AFAC005CF0D9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CC034AEF1CB7AFAC005CF0D9 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CC034AF01CB7AFAC005CF0D9 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CC034AF31CB7AFAC005CF0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC034AF51CB7AFAC005CF0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC034AF81CB7AFAC005CF0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC034AFA1CB7AFAC005CF0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC034AFF1CB7AFAC005CF0D9 /* ColorfulBallsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorfulBallsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC034B031CB7AFAC005CF0D9 /* ColorfulBallsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorfulBallsTests.m; sourceTree = "<group>"; };
+		CC034B051CB7AFAC005CF0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC034B0A1CB7AFAC005CF0D9 /* ColorfulBallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorfulBallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC034B0E1CB7AFAC005CF0D9 /* ColorfulBallsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorfulBallsUITests.m; sourceTree = "<group>"; };
+		CC034B101CB7AFAC005CF0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC034ADE1CB7AFAC005CF0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC034AFC1CB7AFAC005CF0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC034B071CB7AFAC005CF0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC034AD81CB7AFAB005CF0D9 = {
+			isa = PBXGroup;
+			children = (
+				CC034AE31CB7AFAC005CF0D9 /* ColorfulBalls */,
+				CC034B021CB7AFAC005CF0D9 /* ColorfulBallsTests */,
+				CC034B0D1CB7AFAC005CF0D9 /* ColorfulBallsUITests */,
+				CC034AE21CB7AFAC005CF0D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC034AE21CB7AFAC005CF0D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC034AE11CB7AFAC005CF0D9 /* ColorfulBalls.app */,
+				CC034AFF1CB7AFAC005CF0D9 /* ColorfulBallsTests.xctest */,
+				CC034B0A1CB7AFAC005CF0D9 /* ColorfulBallsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC034AE31CB7AFAC005CF0D9 /* ColorfulBalls */ = {
+			isa = PBXGroup;
+			children = (
+				CC034AEA1CB7AFAC005CF0D9 /* GameScene.h */,
+				CC034AEB1CB7AFAC005CF0D9 /* GameScene.m */,
+				CC034AEF1CB7AFAC005CF0D9 /* GameViewController.h */,
+				CC034AF01CB7AFAC005CF0D9 /* GameViewController.m */,
+				CC034AF21CB7AFAC005CF0D9 /* Main.storyboard */,
+				CC034AF51CB7AFAC005CF0D9 /* Assets.xcassets */,
+				CC034AE41CB7AFAC005CF0D9 /* Supporting Files */,
+			);
+			path = ColorfulBalls;
+			sourceTree = "<group>";
+		};
+		CC034AE41CB7AFAC005CF0D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC034AED1CB7AFAC005CF0D9 /* GameScene.sks */,
+				CC034AE71CB7AFAC005CF0D9 /* AppDelegate.h */,
+				CC034AE81CB7AFAC005CF0D9 /* AppDelegate.m */,
+				CC034AE51CB7AFAC005CF0D9 /* main.m */,
+				CC034AF71CB7AFAC005CF0D9 /* LaunchScreen.storyboard */,
+				CC034AFA1CB7AFAC005CF0D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC034B021CB7AFAC005CF0D9 /* ColorfulBallsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC034B031CB7AFAC005CF0D9 /* ColorfulBallsTests.m */,
+				CC034B051CB7AFAC005CF0D9 /* Info.plist */,
+			);
+			path = ColorfulBallsTests;
+			sourceTree = "<group>";
+		};
+		CC034B0D1CB7AFAC005CF0D9 /* ColorfulBallsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC034B0E1CB7AFAC005CF0D9 /* ColorfulBallsUITests.m */,
+				CC034B101CB7AFAC005CF0D9 /* Info.plist */,
+			);
+			path = ColorfulBallsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC034AE01CB7AFAC005CF0D9 /* ColorfulBalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC034B131CB7AFAC005CF0D9 /* Build configuration list for PBXNativeTarget "ColorfulBalls" */;
+			buildPhases = (
+				CC034ADD1CB7AFAC005CF0D9 /* Sources */,
+				CC034ADE1CB7AFAC005CF0D9 /* Frameworks */,
+				CC034ADF1CB7AFAC005CF0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorfulBalls;
+			productName = ColorfulBalls;
+			productReference = CC034AE11CB7AFAC005CF0D9 /* ColorfulBalls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC034AFE1CB7AFAC005CF0D9 /* ColorfulBallsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC034B161CB7AFAC005CF0D9 /* Build configuration list for PBXNativeTarget "ColorfulBallsTests" */;
+			buildPhases = (
+				CC034AFB1CB7AFAC005CF0D9 /* Sources */,
+				CC034AFC1CB7AFAC005CF0D9 /* Frameworks */,
+				CC034AFD1CB7AFAC005CF0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC034B011CB7AFAC005CF0D9 /* PBXTargetDependency */,
+			);
+			name = ColorfulBallsTests;
+			productName = ColorfulBallsTests;
+			productReference = CC034AFF1CB7AFAC005CF0D9 /* ColorfulBallsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC034B091CB7AFAC005CF0D9 /* ColorfulBallsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC034B191CB7AFAC005CF0D9 /* Build configuration list for PBXNativeTarget "ColorfulBallsUITests" */;
+			buildPhases = (
+				CC034B061CB7AFAC005CF0D9 /* Sources */,
+				CC034B071CB7AFAC005CF0D9 /* Frameworks */,
+				CC034B081CB7AFAC005CF0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC034B0C1CB7AFAC005CF0D9 /* PBXTargetDependency */,
+			);
+			name = ColorfulBallsUITests;
+			productName = ColorfulBallsUITests;
+			productReference = CC034B0A1CB7AFAC005CF0D9 /* ColorfulBallsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC034AD91CB7AFAB005CF0D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "武淅 段";
+				TargetAttributes = {
+					CC034AE01CB7AFAC005CF0D9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CC034AFE1CB7AFAC005CF0D9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CC034AE01CB7AFAC005CF0D9;
+					};
+					CC034B091CB7AFAC005CF0D9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CC034AE01CB7AFAC005CF0D9;
+					};
+				};
+			};
+			buildConfigurationList = CC034ADC1CB7AFAB005CF0D9 /* Build configuration list for PBXProject "ColorfulBalls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC034AD81CB7AFAB005CF0D9;
+			productRefGroup = CC034AE21CB7AFAC005CF0D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC034AE01CB7AFAC005CF0D9 /* ColorfulBalls */,
+				CC034AFE1CB7AFAC005CF0D9 /* ColorfulBallsTests */,
+				CC034B091CB7AFAC005CF0D9 /* ColorfulBallsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC034ADF1CB7AFAC005CF0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC034AEE1CB7AFAC005CF0D9 /* GameScene.sks in Resources */,
+				CC034AF91CB7AFAC005CF0D9 /* LaunchScreen.storyboard in Resources */,
+				CC034AF61CB7AFAC005CF0D9 /* Assets.xcassets in Resources */,
+				CC034AF41CB7AFAC005CF0D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC034AFD1CB7AFAC005CF0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC034B081CB7AFAC005CF0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC034ADD1CB7AFAC005CF0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC034AF11CB7AFAC005CF0D9 /* GameViewController.m in Sources */,
+				CC034AE91CB7AFAC005CF0D9 /* AppDelegate.m in Sources */,
+				CC034AEC1CB7AFAC005CF0D9 /* GameScene.m in Sources */,
+				CC034AE61CB7AFAC005CF0D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC034AFB1CB7AFAC005CF0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC034B041CB7AFAC005CF0D9 /* ColorfulBallsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC034B061CB7AFAC005CF0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC034B0F1CB7AFAC005CF0D9 /* ColorfulBallsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC034B011CB7AFAC005CF0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC034AE01CB7AFAC005CF0D9 /* ColorfulBalls */;
+			targetProxy = CC034B001CB7AFAC005CF0D9 /* PBXContainerItemProxy */;
+		};
+		CC034B0C1CB7AFAC005CF0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC034AE01CB7AFAC005CF0D9 /* ColorfulBalls */;
+			targetProxy = CC034B0B1CB7AFAC005CF0D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC034AF21CB7AFAC005CF0D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC034AF31CB7AFAC005CF0D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC034AF71CB7AFAC005CF0D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC034AF81CB7AFAC005CF0D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC034B111CB7AFAC005CF0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC034B121CB7AFAC005CF0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC034B141CB7AFAC005CF0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorfulBalls/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.ColorfulBalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC034B151CB7AFAC005CF0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorfulBalls/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.ColorfulBalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC034B171CB7AFAC005CF0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ColorfulBallsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.ColorfulBallsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorfulBalls.app/ColorfulBalls";
+			};
+			name = Debug;
+		};
+		CC034B181CB7AFAC005CF0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorfulBallsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.ColorfulBallsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorfulBalls.app/ColorfulBalls";
+			};
+			name = Release;
+		};
+		CC034B1A1CB7AFAC005CF0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ColorfulBallsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.ColorfulBallsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorfulBalls;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC034B1B1CB7AFAC005CF0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColorfulBallsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.ColorfulBallsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorfulBalls;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC034ADC1CB7AFAB005CF0D9 /* Build configuration list for PBXProject "ColorfulBalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC034B111CB7AFAC005CF0D9 /* Debug */,
+				CC034B121CB7AFAC005CF0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC034B131CB7AFAC005CF0D9 /* Build configuration list for PBXNativeTarget "ColorfulBalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC034B141CB7AFAC005CF0D9 /* Debug */,
+				CC034B151CB7AFAC005CF0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC034B161CB7AFAC005CF0D9 /* Build configuration list for PBXNativeTarget "ColorfulBallsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC034B171CB7AFAC005CF0D9 /* Debug */,
+				CC034B181CB7AFAC005CF0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC034B191CB7AFAC005CF0D9 /* Build configuration list for PBXNativeTarget "ColorfulBallsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC034B1A1CB7AFAC005CF0D9 /* Debug */,
+				CC034B1B1CB7AFAC005CF0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC034AD91CB7AFAB005CF0D9 /* Project object */;
+}
