@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E283E8CF57B3654145E812864589DC5FC58B9DA4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BF606EBDF3315E78ADBE432953A5D9CE4697B7ED" : 0,
+    "E283E8CF57B3654145E812864589DC5FC58B9DA4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7B3F5A7B-FC0B-4AB8-A65F-E5358454A72F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BF606EBDF3315E78ADBE432953A5D9CE4697B7ED" : "..",
+    "E283E8CF57B3654145E812864589DC5FC58B9DA4" : "ColorfulBalls\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ColorfulBalls",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ColorfulBalls.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WorthyDD\/AirMonitor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF606EBDF3315E78ADBE432953A5D9CE4697B7ED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WorthyDD\/ColorfulBalls.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E283E8CF57B3654145E812864589DC5FC58B9DA4"
+    }
+  ]
+}
